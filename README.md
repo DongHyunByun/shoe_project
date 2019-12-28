@@ -1,4 +1,6 @@
 # shoe_project
+
+
 1. 기간 : 2019.03.01~2019.06.30
 
 2. 기술스택 : python, scikit learn, numpy, pandas, graphviz, pydotplus
