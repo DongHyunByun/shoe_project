@@ -10,7 +10,7 @@
 (2) 획득한 데이터를 이용하여 사용자들의 이동경로를 파악하였는데, 이때 이동경로 상에서 계단을 얼마나 이용하였는지를 사용자별로 추출하였다.  
 (3) 이후 해당사용자의 성별, 발크기, 계단이용률을 att로 하고, 발사이즈를 class att(domain : A,B,C)로 지정한 후 의사결정나무로 분석하였다.
 
-4. 파일설명 :  
+4. 파일설명 :
 (1) convert_to_csv  
 * input file  : "folder"폴더 속 gpx files  
 * output file : "처리후"폴더  
@@ -18,7 +18,7 @@
 (2) preprocess  
 * input file  : "folder"폴더 속 1~6조의 데이터  
 * output file : "처리후"폴더  
-*각 조별로 특정 조원들의 key, 발사이즈, 이동경로, 평균이동속도를 추출.  
+* 각 조별로 특정 조원들의 key, 발사이즈, 이동경로, 평균이동속도를 추출.  
 (3) tree_for_datamining  
 * input file  : man.csv, woman.csv  
 * 남자와 여자로 분리된 전처리된 csv파일을 이용하여 의사결정나무 학습. scikit learn 모듈을 이용. graphviz를 이용하여 시각화.  
