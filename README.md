@@ -16,9 +16,9 @@
 * output file : "처리후"폴더  
 * 어플을 통해 추출한 한사람의 gpx파일들을 csv파일들로 변환한다. 시간, 고도, 경도, 위도, 신발크기, 사용자 키값 6가지가 att를 추출한다.  
 (2) preprocess  
-input file  : "folder"폴더 속 1~6조의 데이터  
-output file : "처리후"폴더  
-각 조별로 특정 조원들의 key, 발사이즈, 이동경로, 평균이동속도를 추출.  
+*input file  : "folder"폴더 속 1~6조의 데이터  
+*output file : "처리후"폴더  
+*각 조별로 특정 조원들의 key, 발사이즈, 이동경로, 평균이동속도를 추출.  
 (3) tree_for_datamining  
-input file  : man.csv, woman.csv  
-남자와 여자로 분리된 전처리된 csv파일을 이용하여 의사결정나무 학습. scikit learn 모듈을 이용. graphviz를 이용하여 시각화.  
+*input file  : man.csv, woman.csv  
+*남자와 여자로 분리된 전처리된 csv파일을 이용하여 의사결정나무 학습. scikit learn 모듈을 이용. graphviz를 이용하여 시각화.  
